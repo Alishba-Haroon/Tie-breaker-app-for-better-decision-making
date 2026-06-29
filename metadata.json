@@ -1,0 +1,8 @@
+{
+  "name": "Remix: The Tiebreaker",
+  "description": "An AI-powered decision making assistant that analyzes your choices using pros \u0026 cons lists, comparison tables, and SWOT analyses.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
