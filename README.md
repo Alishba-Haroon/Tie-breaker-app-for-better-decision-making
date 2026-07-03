@@ -32,7 +32,6 @@
 - [Environment Variables](#-environment-variables)
 - [Run Locally](#️-run-locally)
 - [How It Works](#-how-it-works)
-- [Screenshots](#-screenshots)
 - [Deployment](#-deployment)
 - [Future Improvements](#-future-improvements)
 - [Contributing](#-contributing)
