@@ -1,20 +1,229 @@
 <div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
+
+# 🤖 Tie Breaker AI Decision Making
+
+### Intelligent AI-powered decision support system that compares multiple options and recommends the best choice using customizable evaluation criteria.
+
+<p>
+  <img src="./assets/banner.png" alt="Tie Breaker AI Banner" width="100%">
+</p>
+
+![React](https://img.shields.io/badge/React-19-61DAFB?style=for-the-badge&logo=react)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![Google Gemini](https://img.shields.io/badge/Google_Gemini-AI-4285F4?style=for-the-badge&logo=google)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite)
+![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
+
 </div>
 
-# Run and deploy your AI Studio app
+---
 
-This contains everything you need to run your app locally.
+# 📌 Overview
 
-View your app in AI Studio: https://ai.studio/apps/3d935035-8f73-469e-9964-c1cb589675ba
+**Tie Breaker AI Decision Making** is an AI-powered web application that helps users make informed decisions by comparing multiple options against customizable evaluation criteria.
 
-## Run Locally
+Instead of relying on intuition, the application analyzes the provided information using **Google Gemini AI** and generates an objective recommendation with detailed reasoning.
 
-**Prerequisites:**  Node.js
+Whether choosing between job offers, universities, business ideas, software technologies, or investment options, Tie Breaker AI provides transparent, data-driven decision support.
 
+---
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+# ✨ Features
+
+- 🤖 AI-powered decision analysis
+- ⚖️ Compare multiple options
+- 📊 Custom evaluation criteria
+- 🧠 Intelligent recommendation engine
+- 📈 Score-based comparison
+- 💡 AI-generated reasoning
+- ⚡ Fast response using Gemini API
+- 🎨 Modern responsive UI
+- 🌙 Clean user experience
+- 📱 Mobile friendly
+
+---
+
+# 🖼️ Preview
+
+> Replace the image below with your own project screenshot.
+
+<p align="center">
+<img src="./assets/preview.png" width="100%">
+</p>
+
+---
+
+# 🚀 Tech Stack
+
+| Technology | Purpose |
+|------------|---------|
+| React | Frontend |
+| TypeScript | Programming Language |
+| Vite | Build Tool |
+| Google Gemini API | AI Decision Engine |
+| HTML5 | Structure |
+| CSS3 | Styling |
+| JavaScript | Client Logic |
+
+---
+
+# 📂 Project Structure
+
+```text
+TieBreaker-AI/
+│
+├── public/
+├── src/
+│   ├── components/
+│   ├── pages/
+│   ├── hooks/
+│   ├── services/
+│   ├── assets/
+│   ├── App.tsx
+│   └── main.tsx
+│
+├── .env.local
+├── package.json
+├── vite.config.ts
+└── README.md
+```
+
+---
+
+# ⚙️ Installation
+
+Clone the repository
+
+```bash
+git clone https://github.com/yourusername/tie-breaker-ai.git
+```
+
+Go to the project directory
+
+```bash
+cd tie-breaker-ai
+```
+
+Install dependencies
+
+```bash
+npm install
+```
+
+---
+
+# 🔑 Environment Variables
+
+Create a `.env.local` file in the project root.
+
+```env
+GEMINI_API_KEY=YOUR_GEMINI_API_KEY
+```
+
+Get your Gemini API key from
+
+https://aistudio.google.com/app/apikey
+
+---
+
+# ▶️ Run Locally
+
+```bash
+npm run dev
+```
+
+Open
+
+```
+http://localhost:5173
+```
+
+---
+
+# 🧠 How It Works
+
+1. Enter multiple decision options.
+2. Define evaluation criteria.
+3. Submit the comparison.
+4. Gemini AI analyzes every option.
+5. AI assigns reasoning and recommendations.
+6. Review the best decision with explanations.
+
+---
+
+# 📸 Screenshots
+
+| Home | AI Analysis |
+|------|-------------|
+| ![](./assets/home.png) | ![](./assets/result.png) |
+
+---
+
+# 🌍 Deployment
+
+Deploy easily on:
+
+- Vercel
+- Netlify
+- Firebase Hosting
+- GitHub Pages
+
+---
+
+# 📈 Future Improvements
+
+- User authentication
+- Decision history
+- Export PDF reports
+- Charts and analytics
+- Team collaboration
+- AI explanation visualization
+- Dark mode
+- Multi-language support
+
+---
+
+# 🤝 Contributing
+
+Contributions are welcome!
+
+1. Fork the repository
+2. Create a feature branch
+
+```bash
+git checkout -b feature-name
+```
+
+3. Commit changes
+
+```bash
+git commit -m "Added new feature"
+```
+
+4. Push
+
+```bash
+git push origin feature-name
+```
+
+5. Open a Pull Request
+
+---
+
+# ⭐ Support
+
+If you found this project useful, please consider giving it a ⭐ on GitHub.
+
+---
+
+# 📄 License
+
+This project is licensed under the MIT License.
+
+---
+
+<div align="center">
+
+### Built with ❤️ using React + TypeScript + Google Gemini AI
+
+</div>
