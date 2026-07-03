@@ -1,6 +1,6 @@
 <div align="center">
 
-#  Tie Breaker AI Decision Making
+# Tie Breaker AI Decision Making
 
 ### Intelligent AI-powered decision support system that compares multiple options and recommends the best choice using customizable evaluation criteria.
 
@@ -14,11 +14,33 @@
 ![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite)
 ![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
 
+<!-- Optional: uncomment and update once deployed
+[**🔗 Live Demo**](https://your-deployed-link.vercel.app)
+-->
+
 </div>
 
 ---
 
-# 📌 Overview
+## 📑 Table of Contents
+
+- [Overview](#-overview)
+- [Features](#-features)
+- [Tech Stack](#-tech-stack)
+- [Project Structure](#-project-structure)
+- [Installation](#️-installation)
+- [Environment Variables](#-environment-variables)
+- [Run Locally](#️-run-locally)
+- [How It Works](#-how-it-works)
+- [Screenshots](#-screenshots)
+- [Deployment](#-deployment)
+- [Future Improvements](#-future-improvements)
+- [Contributing](#-contributing)
+- [License](#-license)
+
+---
+
+## 📌 Overview
 
 **Tie Breaker AI Decision Making** is an AI-powered web application that helps users make informed decisions by comparing multiple options against customizable evaluation criteria.
 
@@ -28,7 +50,7 @@ Whether choosing between job offers, universities, business ideas, software tech
 
 ---
 
-# ✨ Features
+## ✨ Features
 
 - 🤖 AI-powered decision analysis
 - ⚖️ Compare multiple options
@@ -43,7 +65,7 @@ Whether choosing between job offers, universities, business ideas, software tech
 
 ---
 
-# 🚀 Tech Stack
+## 🚀 Tech Stack
 
 | Technology | Purpose |
 |------------|---------|
@@ -57,7 +79,7 @@ Whether choosing between job offers, universities, business ideas, software tech
 
 ---
 
-# 📂 Project Structure
+## 📂 Project Structure
 
 ```text
 TieBreaker-AI/
@@ -80,18 +102,18 @@ TieBreaker-AI/
 
 ---
 
-# ⚙️ Installation
+## ⚙️ Installation
 
 Clone the repository
 
 ```bash
-git clone https://github.com/yourusername/tie-breaker-ai.git
+git clone https://github.com/Alishba-Haroon/Tie-breaker-app-for-better-decision-making.git
 ```
 
 Go to the project directory
 
 ```bash
-cd tie-breaker-ai
+cd Tie-breaker-app-for-better-decision-making
 ```
 
 Install dependencies
@@ -102,13 +124,26 @@ npm install
 
 ---
 
-# ▶️ Run Locally
+## 🔑 Environment Variables
+
+Create a `.env.local` file in the project root and add your Gemini API key:
+
+```env
+VITE_GEMINI_API_KEY=your_gemini_api_key_here
+```
+
+> You can generate a free API key from [Google AI Studio](https://aistudio.google.com/app/apikey).
+> Never commit your `.env.local` file — it should already be listed in `.gitignore`.
+
+---
+
+## ▶️ Run Locally
 
 ```bash
 npm run dev
 ```
 
-Open
+Open in your browser:
 
 ```
 http://localhost:5173
@@ -116,7 +151,7 @@ http://localhost:5173
 
 ---
 
-# 🧠 How It Works
+## 🧠 How It Works
 
 1. Enter multiple decision options.
 2. Define evaluation criteria.
@@ -127,15 +162,7 @@ http://localhost:5173
 
 ---
 
-# 📸 Screenshots
-
-| Home | AI Analysis |
-|------|-------------|
-| ![](./assets/home.png) | ![](./assets/result.png) |
-
----
-
-# 🌍 Deployment
+## 🌍 Deployment
 
 Deploy easily on:
 
@@ -144,9 +171,11 @@ Deploy easily on:
 - Firebase Hosting
 - GitHub Pages
 
+> Remember to add your `VITE_GEMINI_API_KEY` as an environment variable in your hosting provider's dashboard as well.
+
 ---
 
-# 📈 Future Improvements
+## 📈 Future Improvements
 
 - User authentication
 - Decision history
@@ -159,40 +188,33 @@ Deploy easily on:
 
 ---
 
-# 🤝 Contributing
+## 🤝 Contributing
 
 Contributions are welcome!
 
 1. Fork the repository
 2. Create a feature branch
-
-```bash
-git checkout -b feature-name
-```
-
+   ```bash
+   git checkout -b feature-name
+   ```
 3. Commit changes
-
-```bash
-git commit -m "Added new feature"
-```
-
+   ```bash
+   git commit -m "Added new feature"
+   ```
 4. Push
-
-```bash
-git push origin feature-name
-```
-
+   ```bash
+   git push origin feature-name
+   ```
 5. Open a Pull Request
 
 ---
 
+## 📄 License
 
-# 📄 License
-
-This project is licensed under the MIT License.
+This project is licensed under the **MIT License**. See the [LICENSE](./LICENSE) file for details.
 
 ---
 
 <div align="center">
-
+Made with ❤️ by Alishba Haroon
 </div>
