@@ -5,7 +5,7 @@
 ### Intelligent AI-powered decision support system that compares multiple options and recommends the best choice using customizable evaluation criteria.
 
 <p>
-  <img src="https://raw.githubusercontent.com/Alishba-Haroon/Tie-breaker-app-for-better-decision-making/main/src/components/main.png" alt="Tie Breaker AI Banner" width="100%">
+  <img src="https://raw.githubusercontent.com/Alishba-Haroon/Tie-breaker-app-for-better-decision-making/main/src/components/main.png" alt="Tie Breaker AI Banner" width="90%">
 </p>
 
 ![React](https://img.shields.io/badge/React-19-61DAFB?style=for-the-badge&logo=react)
@@ -40,16 +40,6 @@ Whether choosing between job offers, universities, business ideas, software tech
 - 🎨 Modern responsive UI
 - 🌙 Clean user experience
 - 📱 Mobile friendly
-
----
-
-# 🖼️ Preview
-
-> Replace the image below with your own project screenshot.
-
-<p align="center">
-<img src="./assets/preview.png" width="100%">
-</p>
 
 ---
 
