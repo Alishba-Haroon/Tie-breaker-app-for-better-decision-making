@@ -82,22 +82,21 @@ Whether choosing between job offers, universities, business ideas, software tech
 ## 📂 Project Structure
 
 ```text
-TieBreaker-AI/
+Tie-breaker-app-for-better-decision-making/
 │
-├── public/
-├── src/
-│   ├── components/
-│   ├── pages/
-│   ├── hooks/
-│   ├── services/
-│   ├── assets/
-│   ├── App.tsx
-│   └── main.tsx
-│
-├── .env.local
+├── .github/workflows/     # CI/CD deployment workflow
+├── assets/                # Project images / screenshots
+├── src/                   # Application source code
+├── .env.example           # Sample environment variables file
+├── .gitignore
+├── LICENSE
+├── README.md
+├── index.html
+├── metadata.json
 ├── package.json
-├── vite.config.ts
-└── README.md
+├── server.ts
+├── tsconfig.json
+└── vite.config.ts
 ```
 
 ---
@@ -126,14 +125,17 @@ npm install
 
 ## 🔑 Environment Variables
 
-Create a `.env.local` file in the project root and add your Gemini API key:
+Copy the provided example file and add your Gemini API key:
+
+```bash
+cp .env.example .env.local
+```
+
+Then open `.env.local` and set:
 
 ```env
 VITE_GEMINI_API_KEY=your_gemini_api_key_here
 ```
-
-> You can generate a free API key from [Google AI Studio](https://aistudio.google.com/app/apikey).
-> Never commit your `.env.local` file — it should already be listed in `.gitignore`.
 
 ---
 
@@ -170,8 +172,6 @@ Deploy easily on:
 - Netlify
 - Firebase Hosting
 - GitHub Pages
-
-> Remember to add your `VITE_GEMINI_API_KEY` as an environment variable in your hosting provider's dashboard as well.
 
 ---
 
