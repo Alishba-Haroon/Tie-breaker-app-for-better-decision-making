@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🤖 Tie Breaker AI Decision Making
+#  Tie Breaker AI Decision Making
 
 ### Intelligent AI-powered decision support system that compares multiple options and recommends the best choice using customizable evaluation criteria.
 
@@ -112,20 +112,6 @@ npm install
 
 ---
 
-# 🔑 Environment Variables
-
-Create a `.env.local` file in the project root.
-
-```env
-GEMINI_API_KEY=YOUR_GEMINI_API_KEY
-```
-
-Get your Gemini API key from
-
-https://aistudio.google.com/app/apikey
-
----
-
 # ▶️ Run Locally
 
 ```bash
@@ -210,11 +196,6 @@ git push origin feature-name
 
 ---
 
-# ⭐ Support
-
-If you found this project useful, please consider giving it a ⭐ on GitHub.
-
----
 
 # 📄 License
 
@@ -223,7 +204,5 @@ This project is licensed under the MIT License.
 ---
 
 <div align="center">
-
-### Built with ❤️ using React + TypeScript + Google Gemini AI
 
 </div>
